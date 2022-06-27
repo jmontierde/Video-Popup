@@ -1,0 +1,62 @@
+body{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      box-sizing: border-box;
+      background-color: aqua;
+      
+
+}
+.popupContainer{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+   
+}
+
+.btn-video{
+      text-align: center;
+      color: #fff;
+      padding: 1.2rem 1.5rem;
+      background-color: rgb(11, 190, 82);
+      border: none;
+      border-radius: .2rem;
+      cursor: pointer;
+
+}
+.btn-video:hover{
+      background-color:rgb(21, 121, 61)
+}
+.active.video-trailer{
+      visibility: hidden;
+
+}
+.video-trailer{
+      display: none;
+
+}
+.close-video{
+      font-size: 1.8rem;
+      position: absolute;
+      top: 85px;
+      left: 93%;
+      visibility: hidden;
+      color: rgb(58, 58, 58);
+      cursor: pointer;
+      opacity: 1;
+      
+
+}
+.close-video:hover{
+      color: #fff;
+      opacity: 2;
+      cursor: pointer;
+}
+
+video{
+      height: 90vh;
+      max-width: 80vw;
+      /* transition: 2s; */
+      outline: none;
+}
